@@ -36,3 +36,5 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // MONGoose CONNECTION
+
+const PORT = process.env.PORT || 6001;
