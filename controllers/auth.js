@@ -31,5 +31,6 @@ export const register = async (req, res) => {
       viewedProfile: Math.floor(Math.random() * 10000),
       impressions: Math.floor(Math.random() * 10000)
     });
+    const savedUser = await newUser.save();
   } catch (err) {}
 };
