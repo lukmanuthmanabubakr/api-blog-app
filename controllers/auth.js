@@ -37,3 +37,11 @@ export const register = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// LOGIN USER
+export const login = async (req, res) => {
+  try {
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};
